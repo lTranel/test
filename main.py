@@ -3,7 +3,7 @@ import folium
 import logging
 
 
-logging.basicConfig(filename='example.log', level=logging.INFO)
+logging.basicConfig(filename='example.log', format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 
 url = 'https://api.ipify.org/'
